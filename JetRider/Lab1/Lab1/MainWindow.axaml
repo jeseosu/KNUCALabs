@@ -1,0 +1,39 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ScottPlot="clr-namespace:ScottPlot.Avalonia;assembly=ScottPlot.Avalonia"
+        x:Class="Lab1.MainWindow"
+        Title="Лабораторна робота 1 - Варіант 6" Width="900" Height="600">
+    
+    <Grid ColumnDefinitions="300, *" RowDefinitions="*">
+        <DockPanel Grid.Column="0" Margin="10">
+            <StackPanel DockPanel.Dock="Top" Spacing="10">
+                <TextBlock Text="Введення даних:" FontWeight="Bold"/>
+                
+                <Grid ColumnDefinitions="Auto, *" RowDefinitions="Auto, Auto, Auto, Auto">
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Xn:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" Name="TbXn" Text="3.35"/>
+                    
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Xk:" VerticalAlignment="Center" Margin="0,0,10,10"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" Name="TbXk" Text="36.26"/>
+                    
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="h:" VerticalAlignment="Center" Margin="0,0,10,10"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" Name="TbH" Text="0.2"/>
+                    
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="a:" VerticalAlignment="Center" Margin="0,0,10,10"/>
+                    <TextBox Grid.Row="3" Grid.Column="1" Name="TbA" Text="10.0"/>
+                </Grid>
+
+                <Button Name="BtnCalculate" Content="Розрахувати та побудувати" 
+                        Click="BtnCalculate_OnClick" HorizontalAlignment="Stretch" 
+                        HorizontalContentAlignment="Center"/>
+            </StackPanel>
+            
+            <DataGrid Name="DgResults" Margin="0,15,0,0" AutoGenerateColumns="True" 
+                      IsReadOnly="True" DockPanel.Dock="Bottom"/>
+        </DockPanel>
+        
+        <Border Grid.Column="1" Margin="10" BorderBrush="Gray" BorderThickness="1">
+            <ScottPlot:AvaPlot Name="ChartPlot"/>
+        </Border>
+    </Grid>
+</Window>
