@@ -1,0 +1,3 @@
+/Users/michaeldimmersion/Documents/Програмування Та його послідомники/Clion_Projects/Уник/Мої/newproject/cmake-build-debug/CMakeFiles/newproject.dir
+/Users/michaeldimmersion/Documents/Програмування Та його послідомники/Clion_Projects/Уник/Мої/newproject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/michaeldimmersion/Documents/Програмування Та його послідомники/Clion_Projects/Уник/Мої/newproject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
