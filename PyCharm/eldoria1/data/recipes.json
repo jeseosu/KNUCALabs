@@ -1,0 +1,28 @@
+{
+  "stations": {
+    "alchemist": "алхімічний стіл",
+    "blacksmith": "ковальський горн"
+  },
+  "recipes": [
+    { "station": "alchemist", "output": ["health_potion_small", 2], "inputs": [["rat_tail", 2], ["slime_gel", 1]], "gold": 3, "level_req": 1 },
+    { "station": "alchemist", "output": ["mana_potion_small", 2], "inputs": [["slime_gel", 2], ["bone", 1]], "gold": 5, "level_req": 1 },
+    { "station": "alchemist", "output": ["health_potion", 1], "inputs": [["health_potion_small", 3], ["slime_gel", 2]], "gold": 10, "level_req": 3 },
+    { "station": "alchemist", "output": ["mana_potion", 1], "inputs": [["mana_potion_small", 3], ["bone", 2]], "gold": 12, "level_req": 3 },
+    { "station": "alchemist", "output": ["health_potion_big", 1], "inputs": [["health_potion", 3], ["gem", 1]], "gold": 40, "level_req": 6 },
+    { "station": "alchemist", "output": ["elixir", 1], "inputs": [["health_potion_big", 1], ["mana_potion", 2], ["gem", 2]], "gold": 120, "level_req": 8 },
+
+    { "station": "blacksmith", "output": ["iron_sword", 1], "inputs": [["iron_scrap", 8], ["goblin_ear", 2]], "gold": 40, "level_req": 3 },
+    { "station": "blacksmith", "output": ["crystal_staff", 1], "inputs": [["gem", 1], ["bone", 4]], "gold": 40, "level_req": 3 },
+    { "station": "blacksmith", "output": ["hunter_bow", 1], "inputs": [["wolf_pelt", 5], ["iron_scrap", 3]], "gold": 40, "level_req": 3 },
+    { "station": "blacksmith", "output": ["iron_helm", 1], "inputs": [["iron_scrap", 6]], "gold": 30, "level_req": 3 },
+    { "station": "blacksmith", "output": ["chainmail", 1], "inputs": [["iron_scrap", 10], ["wolf_pelt", 2]], "gold": 55, "level_req": 3 },
+    { "station": "blacksmith", "output": ["swift_boots", 1], "inputs": [["wolf_pelt", 4], ["rat_tail", 4]], "gold": 30, "level_req": 3 },
+    { "station": "blacksmith", "output": ["silver_ring", 1], "inputs": [["gem", 1], ["iron_scrap", 4]], "gold": 50, "level_req": 3 },
+    { "station": "blacksmith", "output": ["steel_blade", 1], "inputs": [["iron_scrap", 12], ["ogre_tusk", 1], ["gem", 1]], "gold": 120, "level_req": 5 },
+    { "station": "blacksmith", "output": ["arcane_staff", 1], "inputs": [["ogre_tusk", 1], ["gem", 2], ["bone", 4]], "gold": 120, "level_req": 5 },
+    { "station": "blacksmith", "output": ["elven_bow", 1], "inputs": [["wolf_pelt", 6], ["ogre_tusk", 1], ["gem", 1]], "gold": 120, "level_req": 5 },
+    { "station": "blacksmith", "output": ["power_ring", 1], "inputs": [["gem", 2], ["bandit_mask", 2]], "gold": 140, "level_req": 5 },
+    { "station": "blacksmith", "output": ["knight_helm", 1], "inputs": [["iron_scrap", 10], ["bandit_mask", 2]], "gold": 100, "level_req": 6 },
+    { "station": "blacksmith", "output": ["plate_armor", 1], "inputs": [["iron_scrap", 16], ["ogre_tusk", 2]], "gold": 160, "level_req": 6 }
+  ]
+}

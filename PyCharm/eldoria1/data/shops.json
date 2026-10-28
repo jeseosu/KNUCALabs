@@ -1,0 +1,36 @@
+{
+  "shop": {
+    "title": "Лавка Ліри",
+    "sell_rate": 0.5,
+    "buys": ["consumable", "material"],
+    "restock_turns": 400,
+    "stock": [
+      ["bread", 10], ["health_potion_small", 8], ["mana_potion_small", 6],
+      ["health_potion", 3], ["mana_potion", 3],
+      ["leather_cap", 2], ["padded_vest", 2], ["worn_boots", 2], ["copper_ring", 2]
+    ]
+  },
+  "alchemist": {
+    "title": "Лабораторія Фелікса",
+    "sell_rate": 0.6,
+    "buys": ["consumable", "material"],
+    "restock_turns": 500,
+    "stock": [
+      ["health_potion_small", 10], ["health_potion", 5], ["health_potion_big", 2],
+      ["mana_potion_small", 8], ["mana_potion", 4], ["elixir", 1],
+      ["slime_gel", 10], ["bone", 6]
+    ]
+  },
+  "blacksmith": {
+    "title": "Кузня Гріма",
+    "sell_rate": 0.5,
+    "buys": ["weapon", "armor", "material"],
+    "restock_turns": 500,
+    "stock": [
+      ["rusty_sword", 1], ["iron_sword", 1], ["oak_staff", 1], ["crystal_staff", 1],
+      ["short_bow", 1], ["hunter_bow", 1],
+      ["leather_cap", 2], ["iron_helm", 1], ["padded_vest", 2], ["chainmail", 1],
+      ["worn_boots", 2], ["swift_boots", 1], ["silver_ring", 1], ["iron_scrap", 10]
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "rat": {
+    "name": "Щур", "glyph": "r", "color": "mob_white", "level": 1,
+    "max_hp": 14, "attack": 6, "defense": 0, "xp": 10,
+    "aggro": 5, "move_every": 1, "verb": "кусає",
+    "spawn_on": [".", "\""], "min_dist": 12, "max_dist": 45, "weight": 10
+  },
+  "slime": {
+    "name": "Слиз", "glyph": "s", "color": "mob_cyan", "level": 2,
+    "max_hp": 24, "attack": 7, "defense": 2, "xp": 16,
+    "aggro": 4, "move_every": 2, "verb": "обліплює",
+    "spawn_on": ["\"", "&"], "min_dist": 14, "max_dist": 80, "weight": 8
+  },
+  "wolf": {
+    "name": "Вовк", "glyph": "w", "color": "mob_yellow", "level": 3,
+    "max_hp": 32, "attack": 11, "defense": 2, "xp": 26,
+    "aggro": 8, "move_every": 1, "verb": "рве",
+    "spawn_on": [".", "\""], "min_dist": 26, "max_dist": 95, "weight": 6
+  },
+  "goblin": {
+    "name": "Гоблін", "glyph": "g", "color": "mob_green", "level": 4,
+    "max_hp": 40, "attack": 13, "defense": 4, "xp": 38,
+    "aggro": 7, "move_every": 1, "verb": "б'є кийком",
+    "spawn_on": ["."], "min_dist": 36, "max_dist": 110, "weight": 6
+  },
+  "bandit": {
+    "name": "Розбійник", "glyph": "b", "color": "mob_red", "level": 5,
+    "max_hp": 58, "attack": 16, "defense": 6, "xp": 58,
+    "aggro": 8, "move_every": 1, "verb": "рубає",
+    "spawn_on": [".", "="], "min_dist": 50, "max_dist": 130, "weight": 4
+  },
+  "skeleton": {
+    "name": "Скелет", "glyph": "S", "color": "mob_white", "level": 6,
+    "max_hp": 65, "attack": 18, "defense": 8, "xp": 75,
+    "aggro": 7, "move_every": 1, "verb": "січе",
+    "spawn_on": [".", "\""], "min_dist": 65, "max_dist": 160, "weight": 4
+  },
+  "orc": {
+    "name": "Орк", "glyph": "p", "color": "mob_green", "level": 7,
+    "max_hp": 85, "attack": 20, "defense": 7, "xp": 90,
+    "aggro": 8, "move_every": 1, "verb": "рубає сокирою",
+    "spawn_on": ["."], "min_dist": 65, "max_dist": 150, "weight": 3
+  },
+  "ogre": {
+    "name": "Огр", "glyph": "O", "color": "mob_boss", "level": 8,
+    "max_hp": 130, "attack": 24, "defense": 10, "xp": 170,
+    "aggro": 6, "move_every": 2, "verb": "трощить",
+    "spawn_on": ["."], "min_dist": 90, "max_dist": 230, "weight": 1
+  },
+  "troll": {
+    "name": "Троль", "glyph": "R", "color": "mob_red", "level": 10,
+    "max_hp": 165, "attack": 28, "defense": 12, "xp": 230,
+    "aggro": 7, "move_every": 1, "verb": "лупить",
+    "spawn_on": ["."], "min_dist": 105, "max_dist": 230, "weight": 2
+  },
+
+  "toad": {
+    "name": "Болотна жаба", "glyph": "t", "color": "mob_green", "level": 3,
+    "max_hp": 28, "attack": 9, "defense": 1, "xp": 22,
+    "aggro": 5, "move_every": 1, "verb": "кусає",
+    "spawn_on": ["&"], "min_dist": 40, "max_dist": 90, "weight": 8
+  },
+  "zombie": {
+    "name": "Зомбі", "glyph": "z", "color": "mob_green", "level": 5,
+    "max_hp": 70, "attack": 14, "defense": 3, "xp": 55,
+    "aggro": 5, "move_every": 2, "verb": "шматує",
+    "spawn_on": ["&"], "min_dist": 55, "max_dist": 150, "weight": 5
+  },
+  "bogman": {
+    "name": "Болотник", "glyph": "B", "color": "mob_cyan", "level": 8,
+    "max_hp": 105, "attack": 22, "defense": 8, "xp": 130,
+    "aggro": 7, "move_every": 1, "verb": "топить",
+    "spawn_on": ["&"], "min_dist": 90, "max_dist": 230, "weight": 3
+  },
+
+  "scorpion": {
+    "name": "Скорпіон", "glyph": "c", "color": "mob_yellow", "level": 4,
+    "max_hp": 34, "attack": 12, "defense": 5, "xp": 30,
+    "aggro": 6, "move_every": 1, "verb": "жалить",
+    "spawn_on": [":"], "min_dist": 40, "max_dist": 100, "weight": 8
+  },
+  "jackal": {
+    "name": "Шакал", "glyph": "j", "color": "mob_yellow", "level": 5,
+    "max_hp": 40, "attack": 14, "defense": 2, "xp": 38,
+    "aggro": 9, "move_every": 1, "verb": "кусає",
+    "spawn_on": [":"], "min_dist": 45, "max_dist": 110, "weight": 6
+  },
+  "mummy": {
+    "name": "Мумія", "glyph": "m", "color": "mob_white", "level": 7,
+    "max_hp": 90, "attack": 20, "defense": 7, "xp": 100,
+    "aggro": 6, "move_every": 2, "verb": "душить",
+    "spawn_on": [":"], "min_dist": 75, "max_dist": 160, "weight": 4
+  },
+  "sand_golem": {
+    "name": "Піщаний голем", "glyph": "M", "color": "mob_yellow", "level": 9,
+    "max_hp": 150, "attack": 26, "defense": 14, "xp": 190,
+    "aggro": 6, "move_every": 2, "verb": "розчавлює",
+    "spawn_on": [":"], "min_dist": 105, "max_dist": 230, "weight": 2
+  },
+
+  "ice_wolf": {
+    "name": "Крижаний вовк", "glyph": "w", "color": "mob_cyan", "level": 5,
+    "max_hp": 42, "attack": 14, "defense": 3, "xp": 40,
+    "aggro": 9, "move_every": 1, "verb": "рве",
+    "spawn_on": [";"], "min_dist": 40, "max_dist": 105, "weight": 7
+  },
+  "yeti": {
+    "name": "Єті", "glyph": "H", "color": "mob_white", "level": 8,
+    "max_hp": 125, "attack": 24, "defense": 9, "xp": 150,
+    "aggro": 7, "move_every": 1, "verb": "лупить",
+    "spawn_on": [";"], "min_dist": 85, "max_dist": 170, "weight": 3
+  },
+  "ice_elemental": {
+    "name": "Крижаний елементаль", "glyph": "I", "color": "mob_cyan", "level": 9,
+    "max_hp": 90, "attack": 27, "defense": 6, "xp": 160,
+    "aggro": 8, "move_every": 1, "verb": "морозить",
+    "spawn_on": [";"], "min_dist": 100, "max_dist": 230, "weight": 3
+  },
+
+  "bat": {
+    "name": "Кажан", "glyph": "v", "color": "mob_cyan", "level": 2,
+    "max_hp": 18, "attack": 8, "defense": 0, "xp": 14,
+    "aggro": 8, "move_every": 1, "verb": "кусає",
+    "spawn_on": [], "min_dist": 999, "max_dist": 999, "weight": 0
+  },
+  "wraith": {
+    "name": "Привид", "glyph": "W", "color": "mob_cyan", "level": 7,
+    "max_hp": 52, "attack": 21, "defense": 2, "xp": 95,
+    "aggro": 8, "move_every": 1, "verb": "торкається",
+    "spawn_on": [], "min_dist": 999, "max_dist": 999, "weight": 0
+  },
+  "imp": {
+    "name": "Біс", "glyph": "i", "color": "mob_yellow", "level": 8,
+    "max_hp": 60, "attack": 22, "defense": 5, "xp": 110,
+    "aggro": 9, "move_every": 1, "verb": "дряпає",
+    "spawn_on": [], "min_dist": 999, "max_dist": 999, "weight": 0
+  },
+  "drakeling": {
+    "name": "Дракончик", "glyph": "d", "color": "mob_red", "level": 9,
+    "max_hp": 95, "attack": 24, "defense": 9, "xp": 150,
+    "aggro": 8, "move_every": 1, "verb": "палить",
+    "spawn_on": [], "min_dist": 999, "max_dist": 999, "weight": 0
+  },
+  "demon": {
+    "name": "Демон", "glyph": "e", "color": "mob_red", "level": 11,
+    "max_hp": 130, "attack": 30, "defense": 11, "xp": 200,
+    "aggro": 9, "move_every": 1, "verb": "роздирає",
+    "spawn_on": [], "min_dist": 999, "max_dist": 999, "weight": 0
+  },
+
+  "rat_king": {
+    "name": "Король щурів", "glyph": "K", "color": "mob_boss", "level": 3,
+    "max_hp": 110, "attack": 11, "defense": 3, "xp": 120,
+    "aggro": 12, "move_every": 1, "verb": "рве зубами",
+    "boss": true, "enrage_at": 0.3,
+    "summon": { "id": "rat", "count": 3, "at": 0.5 },
+    "spawn_on": [], "min_dist": 999, "max_dist": 999, "weight": 0
+  },
+  "goblin_king": {
+    "name": "Король гоблінів", "glyph": "G", "color": "mob_boss", "level": 6,
+    "max_hp": 190, "attack": 17, "defense": 6, "xp": 300,
+    "aggro": 12, "move_every": 1, "verb": "б'є скіпетром",
+    "boss": true, "enrage_at": 0.3,
+    "summon": { "id": "goblin", "count": 2, "at": 0.5 },
+    "spawn_on": [], "min_dist": 999, "max_dist": 999, "weight": 0
+  },
+  "bog_hag": {
+    "name": "Болотна відьма", "glyph": "N", "color": "mob_boss", "level": 8,
+    "max_hp": 270, "attack": 22, "defense": 8, "xp": 420,
+    "aggro": 12, "move_every": 1, "verb": "проклинає",
+    "boss": true, "enrage_at": 0.3,
+    "summon": { "id": "toad", "count": 3, "at": 0.5 },
+    "spawn_on": [], "min_dist": 999, "max_dist": 999, "weight": 0
+  },
+  "lich": {
+    "name": "Лорд-лич", "glyph": "L", "color": "mob_boss", "level": 9,
+    "max_hp": 340, "attack": 26, "defense": 10, "xp": 650,
+    "aggro": 12, "move_every": 1, "verb": "випалює душу",
+    "boss": true, "enrage_at": 0.3,
+    "summon": { "id": "skeleton", "count": 3, "at": 0.5 },
+    "spawn_on": [], "min_dist": 999, "max_dist": 999, "weight": 0
+  },
+  "frost_giant": {
+    "name": "Крижаний велетень", "glyph": "F", "color": "mob_boss", "level": 10,
+    "max_hp": 430, "attack": 28, "defense": 12, "xp": 800,
+    "aggro": 12, "move_every": 1, "verb": "трощить кригою",
+    "boss": true, "enrage_at": 0.3,
+    "summon": { "id": "yeti", "count": 2, "at": 0.5 },
+    "spawn_on": [], "min_dist": 999, "max_dist": 999, "weight": 0
+  },
+  "pharaoh": {
+    "name": "Цар-фараон", "glyph": "P", "color": "mob_boss", "level": 11,
+    "max_hp": 520, "attack": 31, "defense": 13, "xp": 1000,
+    "aggro": 12, "move_every": 1, "verb": "проклинає пісками",
+    "boss": true, "enrage_at": 0.3,
+    "summon": { "id": "mummy", "count": 3, "at": 0.5 },
+    "spawn_on": [], "min_dist": 999, "max_dist": 999, "weight": 0
+  },
+  "dragon": {
+    "name": "Червоний дракон", "glyph": "D", "color": "mob_boss", "level": 12,
+    "max_hp": 650, "attack": 34, "defense": 14, "xp": 1500,
+    "aggro": 12, "move_every": 1, "verb": "палить полум'ям",
+    "boss": true, "enrage_at": 0.3,
+    "summon": { "id": "drakeling", "count": 2, "at": 0.5 },
+    "spawn_on": [], "min_dist": 999, "max_dist": 999, "weight": 0
+  },
+  "demon_lord": {
+    "name": "Володар Безодні", "glyph": "Z", "color": "mob_boss", "level": 14,
+    "max_hp": 900, "attack": 40, "defense": 18, "xp": 2600,
+    "aggro": 12, "move_every": 1, "verb": "випалює дотла",
+    "boss": true, "enrage_at": 0.3,
+    "summon": { "id": "demon", "count": 2, "at": 0.5 },
+    "spawn_on": [], "min_dist": 999, "max_dist": 999, "weight": 0
+  }
+}

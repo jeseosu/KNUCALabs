@@ -1,0 +1,82 @@
+{
+  "rat_cellar": {
+    "name": "Щурячі підвали",
+    "desc": "Занедбані винні льохи під містом. Щури тут розплодилися до моторошних розмірів.",
+    "distance": [26, 38], "size": [48, 26], "rooms": 7, "vision": 6, "level_hint": 2,
+    "monsters": [["rat", 8], ["bat", 3], ["slime", 3]],
+    "per_room": [1, 3],
+    "boss": "rat_king", "guards": ["rat", "rat", "rat"],
+    "treasure_chance": 0.5, "treasure_gold": [10, 30],
+    "clear_gold": 60, "clear_xp": 60, "reset_turns": 1200
+  },
+  "goblin_warren": {
+    "name": "Лігво гоблінів",
+    "desc": "Сирі тунелі під пагорбом. Гобліни тримають тут усе награбоване.",
+    "distance": [40, 54], "size": [60, 30], "rooms": 9, "vision": 6, "level_hint": 4,
+    "monsters": [["rat", 3], ["bat", 5], ["goblin", 6], ["wolf", 2]],
+    "per_room": [1, 3],
+    "boss": "goblin_king", "guards": ["goblin", "goblin"],
+    "treasure_chance": 0.55, "treasure_gold": [20, 60],
+    "clear_gold": 150, "clear_xp": 120, "reset_turns": 1500
+  },
+  "bog_temple": {
+    "name": "Болотний храм", "biome": "swamp",
+    "desc": "Напівзатоплена святиня, де болотна відьма варить своє зілля.",
+    "distance": [58, 80], "size": [62, 32], "rooms": 10, "vision": 5, "level_hint": 6,
+    "monsters": [["toad", 6], ["zombie", 4], ["slime", 3], ["wraith", 2]],
+    "per_room": [1, 3],
+    "boss": "bog_hag", "guards": ["zombie", "zombie"],
+    "treasure_chance": 0.55, "treasure_gold": [30, 90],
+    "clear_gold": 300, "clear_xp": 260, "reset_turns": 1500
+  },
+  "forgotten_crypt": {
+    "name": "Крипта забутих", "biome": "green",
+    "desc": "Стародавня усипальниця. Мертві тут не знають спокою.",
+    "distance": [66, 88], "size": [64, 32], "rooms": 10, "vision": 5, "level_hint": 7,
+    "monsters": [["bat", 2], ["zombie", 5], ["skeleton", 6], ["wraith", 3]],
+    "per_room": [1, 3],
+    "boss": "lich", "guards": ["skeleton", "skeleton"],
+    "treasure_chance": 0.55, "treasure_gold": [40, 110],
+    "clear_gold": 400, "clear_xp": 350, "reset_turns": 1500
+  },
+  "frozen_caves": {
+    "name": "Крижані печери", "biome": "snow",
+    "desc": "Льодяні тунелі на півночі. Тут панує вічна мерзлота, а в глибині спить велетень.",
+    "distance": [74, 98], "size": [64, 32], "rooms": 10, "vision": 5, "level_hint": 8,
+    "monsters": [["ice_wolf", 5], ["yeti", 4], ["skeleton", 2], ["bat", 2]],
+    "per_room": [1, 3],
+    "boss": "frost_giant", "guards": ["yeti", "yeti"],
+    "treasure_chance": 0.55, "treasure_gold": [60, 150],
+    "clear_gold": 600, "clear_xp": 600, "reset_turns": 1500
+  },
+  "sand_tombs": {
+    "name": "Піщані гробниці", "biome": "desert",
+    "desc": "Забуті склепи під пісками. Давній цар чекає на тих, хто насмілиться ввійти.",
+    "distance": [80, 106], "size": [66, 34], "rooms": 11, "vision": 5, "level_hint": 9,
+    "monsters": [["scorpion", 5], ["mummy", 5], ["sand_golem", 2], ["bat", 2]],
+    "per_room": [1, 3],
+    "boss": "pharaoh", "guards": ["mummy", "mummy"],
+    "treasure_chance": 0.6, "treasure_gold": [70, 180],
+    "clear_gold": 750, "clear_xp": 750, "reset_turns": 1500
+  },
+  "dragon_lair": {
+    "name": "Лігво дракона",
+    "desc": "Розпечені печери на краю світу. Повітря тут дзвенить від жару.",
+    "distance": [100, 125], "size": [66, 34], "rooms": 11, "vision": 4, "level_hint": 11,
+    "monsters": [["ogre", 2], ["imp", 5], ["drakeling", 5], ["skeleton", 2]],
+    "per_room": [1, 3],
+    "boss": "dragon", "guards": ["drakeling", "drakeling"],
+    "treasure_chance": 0.6, "treasure_gold": [80, 220],
+    "clear_gold": 900, "clear_xp": 900, "reset_turns": 1500
+  },
+  "abyss": {
+    "name": "Безодня демонів",
+    "desc": "Розлом у реальності, звідки лізуть найстрашніші створіння. Тут закінчується світло.",
+    "distance": [125, 150], "size": [70, 36], "rooms": 12, "vision": 4, "level_hint": 14,
+    "monsters": [["demon", 5], ["imp", 4], ["drakeling", 3], ["wraith", 2]],
+    "per_room": [1, 3],
+    "boss": "demon_lord", "guards": ["demon", "demon"],
+    "treasure_chance": 0.6, "treasure_gold": [120, 320],
+    "clear_gold": 1800, "clear_xp": 2000, "reset_turns": 2000
+  }
+}

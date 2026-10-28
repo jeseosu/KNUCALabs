@@ -1,0 +1,83 @@
+{
+  "slots": {
+    "weapon": "Зброя",
+    "head": "Шолом",
+    "body": "Броня",
+    "boots": "Взуття",
+    "ring": "Кільце"
+  },
+
+  "rarities": {
+    "common":    { "name": "Звичайний",   "color": "rar_common",    "weight": 60.0 },
+    "uncommon":  { "name": "Незвичайний", "color": "rar_uncommon",  "weight": 28.0 },
+    "rare":      { "name": "Рідкісний",   "color": "rar_rare",      "weight": 9.0 },
+    "epic":      { "name": "Епічний",     "color": "rar_epic",      "weight": 2.5 },
+    "legendary": { "name": "Легендарний", "color": "rar_legendary", "weight": 0.5 }
+  },
+
+  "starting_kits": {
+    "warrior": { "equip": ["rusty_sword", "leather_cap"],
+                 "items": [["health_potion_small", 3], ["bread", 2]] },
+    "mage":    { "equip": ["oak_staff"],
+                 "items": [["health_potion_small", 2], ["mana_potion_small", 3]] },
+    "archer":  { "equip": ["short_bow"],
+                 "items": [["health_potion_small", 3], ["mana_potion_small", 1]] }
+  },
+
+  "items": {
+    "rusty_sword":    { "name": "Іржавий меч", "kind": "weapon", "slot": "weapon", "rarity": "common", "level_req": 1, "classes": ["warrior"], "stats": { "attack": 3 }, "value": 12, "desc": "Старий, але ще тримає лезо." },
+    "iron_sword":     { "name": "Залізний меч", "kind": "weapon", "slot": "weapon", "rarity": "uncommon", "level_req": 3, "classes": ["warrior"], "stats": { "attack": 6 }, "value": 45, "desc": "Надійний меч міського кування." },
+    "steel_blade":    { "name": "Сталевий клинок", "kind": "weapon", "slot": "weapon", "rarity": "rare", "level_req": 5, "classes": ["warrior"], "stats": { "attack": 10, "crit": 0.03 }, "value": 140, "desc": "Зброя гвардійців Ельдорії." },
+    "blood_reaper":   { "name": "Кривавий жнець", "kind": "weapon", "slot": "weapon", "rarity": "epic", "level_req": 8, "classes": ["warrior"], "stats": { "attack": 16, "crit": 0.05 }, "value": 420, "desc": "Лезо, що ніколи не висихає." },
+    "eldoria_blade":  { "name": "Меч Ельдорії", "kind": "weapon", "slot": "weapon", "rarity": "legendary", "level_req": 10, "classes": ["warrior"], "stats": { "attack": 24, "crit": 0.08 }, "value": 1200, "desc": "Меч першого короля. Співає у бою." },
+
+    "oak_staff":      { "name": "Дубовий посох", "kind": "weapon", "slot": "weapon", "rarity": "common", "level_req": 1, "classes": ["mage"], "stats": { "attack": 3 }, "value": 12, "desc": "Звичайна палиця учня мага." },
+    "crystal_staff":  { "name": "Кришталевий посох", "kind": "weapon", "slot": "weapon", "rarity": "uncommon", "level_req": 3, "classes": ["mage"], "stats": { "attack": 6 }, "value": 45, "desc": "У кришталі б'ється слабке світло." },
+    "arcane_staff":   { "name": "Арканний посох", "kind": "weapon", "slot": "weapon", "rarity": "rare", "level_req": 5, "classes": ["mage"], "stats": { "attack": 10, "crit": 0.03 }, "value": 140, "desc": "Руни на ньому ніколи не гаснуть." },
+    "storm_staff":    { "name": "Посох бур", "kind": "weapon", "slot": "weapon", "rarity": "epic", "level_req": 8, "classes": ["mage"], "stats": { "attack": 16, "crit": 0.05 }, "value": 420, "desc": "Тримаєш його, і волосся стає дибки." },
+    "eternity_staff": { "name": "Посох Вічності", "kind": "weapon", "slot": "weapon", "rarity": "legendary", "level_req": 10, "classes": ["mage"], "stats": { "attack": 24, "crit": 0.08 }, "value": 1200, "desc": "Кажуть, він старший за сам світ." },
+
+    "short_bow":      { "name": "Короткий лук", "kind": "weapon", "slot": "weapon", "rarity": "common", "level_req": 1, "classes": ["archer"], "stats": { "attack": 3 }, "value": 12, "desc": "Простий лук із в'яза." },
+    "hunter_bow":     { "name": "Мисливський лук", "kind": "weapon", "slot": "weapon", "rarity": "uncommon", "level_req": 3, "classes": ["archer"], "stats": { "attack": 6 }, "value": 45, "desc": "Тугий, як характер мисливця." },
+    "elven_bow":      { "name": "Ельфійський лук", "kind": "weapon", "slot": "weapon", "rarity": "rare", "level_req": 5, "classes": ["archer"], "stats": { "attack": 10, "crit": 0.03 }, "value": 140, "desc": "Тятива тихо дзвенить." },
+    "dawn_bow":       { "name": "Лук світанку", "kind": "weapon", "slot": "weapon", "rarity": "epic", "level_req": 8, "classes": ["archer"], "stats": { "attack": 16, "crit": 0.05 }, "value": 420, "desc": "Стріли залишають золотий слід." },
+    "starwind_bow":   { "name": "Лук Зоряного Вітру", "kind": "weapon", "slot": "weapon", "rarity": "legendary", "level_req": 10, "classes": ["archer"], "stats": { "attack": 24, "crit": 0.08 }, "value": 1200, "desc": "Не промахується, якщо віриш у нього." },
+
+    "leather_cap":    { "name": "Шкіряний каптур", "kind": "armor", "slot": "head", "rarity": "common", "level_req": 1, "stats": { "defense": 1 }, "value": 8, "desc": "Захищає хіба що від дощу." },
+    "iron_helm":      { "name": "Залізний шолом", "kind": "armor", "slot": "head", "rarity": "uncommon", "level_req": 3, "stats": { "defense": 3 }, "value": 40, "desc": "Трохи муляє, зате надійний." },
+    "knight_helm":    { "name": "Шолом лицаря", "kind": "armor", "slot": "head", "rarity": "rare", "level_req": 6, "stats": { "defense": 5 }, "value": 130, "desc": "З гербом занепалого ордену." },
+    "wolf_crown":     { "name": "Корона вовчого вожака", "kind": "armor", "slot": "head", "rarity": "epic", "level_req": 8, "stats": { "defense": 7, "crit": 0.02 }, "value": 400, "desc": "Вовки відчувають її запах здалеку." },
+
+    "padded_vest":    { "name": "Стьобана куртка", "kind": "armor", "slot": "body", "rarity": "common", "level_req": 1, "stats": { "defense": 2 }, "value": 14, "desc": "Тепла і дешева." },
+    "chainmail":      { "name": "Кольчуга", "kind": "armor", "slot": "body", "rarity": "uncommon", "level_req": 3, "stats": { "defense": 4 }, "value": 60, "desc": "Дзвенить при кожному кроці." },
+    "plate_armor":    { "name": "Латна броня", "kind": "armor", "slot": "body", "rarity": "rare", "level_req": 6, "stats": { "defense": 8 }, "value": 200, "desc": "Важка, але витримає удар огра." },
+    "dragon_mail":    { "name": "Лускатий обладунок", "kind": "armor", "slot": "body", "rarity": "epic", "level_req": 8, "stats": { "defense": 12 }, "value": 520, "desc": "Луска, що пам'ятає вогонь." },
+
+    "worn_boots":     { "name": "Стоптані чоботи", "kind": "armor", "slot": "boots", "rarity": "common", "level_req": 1, "stats": { "defense": 1 }, "value": 6, "desc": "Бачили багато доріг." },
+    "swift_boots":    { "name": "Чоботи мандрівника", "kind": "armor", "slot": "boots", "rarity": "uncommon", "level_req": 3, "stats": { "defense": 2 }, "value": 38, "desc": "Не натирають навіть у поході." },
+    "wind_boots":     { "name": "Чоботи вітробіга", "kind": "armor", "slot": "boots", "rarity": "epic", "level_req": 7, "stats": { "defense": 4, "crit": 0.03 }, "value": 300, "desc": "Ноги самі несуть уперед." },
+
+    "copper_ring":    { "name": "Мідний перстень", "kind": "armor", "slot": "ring", "rarity": "common", "level_req": 1, "stats": { "attack": 1 }, "value": 15, "desc": "Прикраса для бідняка." },
+    "silver_ring":    { "name": "Срібний перстень", "kind": "armor", "slot": "ring", "rarity": "uncommon", "level_req": 3, "stats": { "attack": 2 }, "value": 55, "desc": "Холодний на дотик." },
+    "power_ring":     { "name": "Перстень сили", "kind": "armor", "slot": "ring", "rarity": "rare", "level_req": 5, "stats": { "attack": 3, "crit": 0.02 }, "value": 180, "desc": "Стискає палець, коли ти в гніві." },
+    "eldoria_ring":   { "name": "Перстень Ельдорії", "kind": "armor", "slot": "ring", "rarity": "legendary", "level_req": 9, "stats": { "attack": 6, "defense": 3, "crit": 0.05 }, "value": 900, "desc": "Королівська печатка давніх часів." },
+
+    "bread":               { "name": "Окраєць хліба", "kind": "consumable", "rarity": "common", "effect": { "heal": 15 }, "value": 3, "desc": "Простий, але ситний." },
+    "health_potion_small": { "name": "Мале зілля здоров'я", "kind": "consumable", "rarity": "common", "effect": { "heal": 40 }, "value": 12, "desc": "Червона рідина в склянці." },
+    "health_potion":       { "name": "Зілля здоров'я", "kind": "consumable", "rarity": "uncommon", "effect": { "heal": 100 }, "value": 35, "desc": "Гірке, але діє." },
+    "health_potion_big":   { "name": "Велике зілля здоров'я", "kind": "consumable", "rarity": "rare", "effect": { "heal": 220 }, "value": 90, "desc": "Мертвого не підніме, але близько." },
+    "mana_potion_small":   { "name": "Мале зілля мани", "kind": "consumable", "rarity": "common", "effect": { "mana": 35 }, "value": 14, "desc": "Синя рідина, пахне м'ятою." },
+    "mana_potion":         { "name": "Зілля мани", "kind": "consumable", "rarity": "uncommon", "effect": { "mana": 80 }, "value": 40, "desc": "Освіжає розум і магію." },
+    "elixir":              { "name": "Еліксир Ельдорії", "kind": "consumable", "rarity": "epic", "effect": { "heal": 200, "mana": 100 }, "value": 250, "desc": "Рідкісна суміш лікарів королівства." },
+
+    "rat_tail":      { "name": "Щурячий хвіст", "kind": "material", "rarity": "common", "value": 2, "desc": "Бридкий, але комусь знадобиться." },
+    "slime_gel":     { "name": "Слизовий гель", "kind": "material", "rarity": "common", "value": 4, "desc": "Липкий і трохи тепло світиться." },
+    "wolf_pelt":     { "name": "Вовча шкура", "kind": "material", "rarity": "common", "value": 8, "desc": "Густа сіра шерсть." },
+    "goblin_ear":    { "name": "Вухо гобліна", "kind": "material", "rarity": "common", "value": 10, "desc": "Доказ перемоги для мисливців." },
+    "iron_scrap":    { "name": "Залізний брухт", "kind": "material", "rarity": "common", "value": 6, "desc": "Згодиться ковалю." },
+    "bandit_mask":   { "name": "Маска розбійника", "kind": "material", "rarity": "uncommon", "value": 18, "desc": "Під нею ховалося чиєсь обличчя." },
+    "bone":          { "name": "Стародавня кістка", "kind": "material", "rarity": "common", "value": 12, "desc": "Холодна, як сама смерть." },
+    "ogre_tusk":     { "name": "Ікло огра", "kind": "material", "rarity": "rare", "value": 60, "desc": "Величезне й дуже гостре." },
+    "gem":           { "name": "Самоцвіт", "kind": "material", "rarity": "rare", "value": 100, "desc": "Грані ловлять світло." }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "q_first_steps": {
+    "name": "Перші кроки", "giver": "elder", "level_req": 1, "requires": null,
+    "type": "kill", "target": "*", "count": 5,
+    "offer": "Ти ще зеленкуватий для великих справ. Вийди за браму й здолай кількох тварин, щоб набратися досвіду.",
+    "progress": "Ще не все? Битви гартують. Не поспішай.",
+    "complete": "Бачу, ти не дарма дістав свій меч. Тримай, це від міста.",
+    "reward": { "gold": 30, "xp": 40, "items": [["health_potion_small", 2]] }
+  },
+  "q_cellar": {
+    "name": "Щурячі підвали", "giver": "elder", "level_req": 2, "requires": "q_first_steps",
+    "type": "clear", "target": "rat_cellar",
+    "offer": "Під містом є старі льохи, а в них розплодились щурі. Їхній король уже грізьмя гризе коріння міських будинків. Зачисти підвал.",
+    "progress": "Король щурів ще живий? Не відступай, бо щурі розмножуються.",
+    "complete": "Ти зробив те, на що не наважилась вся міська варта. Місто вдячне.",
+    "reward": { "gold": 80, "xp": 90, "gear": [2, 1] }
+  },
+  "q_goblins": {
+    "name": "Загроза з пагорбів", "giver": "elder", "level_req": 3, "requires": "q_cellar",
+    "type": "clear", "target": "goblin_warren",
+    "offer": "Гобліни обжили тунелі під пагорбом, а їхній король грабує каравани. Знищ його.",
+    "progress": "Король гоблінів ще на троні. Дорога лишається небезпечною.",
+    "complete": "Каравани знову ходитимуть. Ти показав себе справжнім героєм.",
+    "reward": { "gold": 200, "xp": 220, "gear": [4, 2] }
+  },
+  "q_bog": {
+    "name": "Хвороба болота", "giver": "elder", "level_req": 5, "requires": "q_goblins",
+    "type": "clear", "target": "bog_temple",
+    "offer": "На півдні, у болотах, відьма отруює воду. Люди хворіють. Зупини її в Болотному храмі.",
+    "progress": "Відьма ще жива. Вода й далі гнила.",
+    "complete": "Вода знову чиста. Півден дихає легше завдяки тобі.",
+    "reward": { "gold": 320, "xp": 360, "gear": [6, 2] }
+  },
+  "q_crypt": {
+    "name": "Спокій мертвих", "giver": "elder", "level_req": 6, "requires": "q_goblins",
+    "type": "clear", "target": "forgotten_crypt",
+    "offer": "На заході спить Крипта забутих. Лорд-лич знову збудив мерців. Поклади цьому край.",
+    "progress": "Лич усе ще керує мертвими. Не барися.",
+    "complete": "Мерці знову сплять. Цей день буде записаний у літописі.",
+    "reward": { "gold": 450, "xp": 520, "gear": [7, 2] }
+  },
+  "q_frost": {
+    "name": "Крижане серце", "giver": "elder", "level_req": 7, "requires": "q_crypt",
+    "type": "clear", "target": "frozen_caves",
+    "offer": "Північні печери вкрилися кригою, а в них оселився велетень. Холод повзе до міста. Знайди його.",
+    "progress": "Лід не тане, велетень ще живий.",
+    "complete": "Холод відступає. Північ знову можна пережити.",
+    "reward": { "gold": 600, "xp": 760, "gear": [8, 3] }
+  },
+  "q_sands": {
+    "name": "Прокляття пісків", "giver": "elder", "level_req": 8, "requires": "q_frost",
+    "type": "clear", "target": "sand_tombs",
+    "offer": "Давній цар прокинувся в гробницях у пустелі. Якщо його не зупинити, піски поглинуть дороги.",
+    "progress": "Цар ще у своїй гробниці. Піски ворушаться.",
+    "complete": "Пустеля спокійна. Ти врятував наші каравани.",
+    "reward": { "gold": 800, "xp": 1000, "gear": [9, 3] }
+  },
+  "q_dragon": {
+    "name": "Драконяча загроза", "giver": "elder", "level_req": 10, "requires": "q_sands",
+    "type": "clear", "target": "dragon_lair",
+    "offer": "Червоний дракон палить землі на краю світу. Якщо хтось і здатен його подолати, то це ти.",
+    "progress": "Дракон живий. Берегись його подиху.",
+    "complete": "Дракон мертвий! Пісні про цей день співатимуть століттями.",
+    "reward": { "gold": 1200, "xp": 1600, "gear": [11, 3] }
+  },
+  "q_abyss": {
+    "name": "Кінець пітьми", "giver": "elder", "level_req": 13, "requires": "q_dragon",
+    "type": "clear", "target": "abyss",
+    "offer": "Усі лихі сили мають одне джерело: Безодню демонів. Володар Безодні чекає на тебе. Це останній виклик.",
+    "progress": "Володар Безодні ще живий. Тримайся.",
+    "complete": "Ти зробив неможливе. Ельдорія вільна, і ти її герой.",
+    "reward": { "gold": 3000, "xp": 4000, "gear": [14, 4] }
+  },
+
+  "q_rats_food": {
+    "name": "Щури в коморі", "giver": "tavern", "level_req": 1, "requires": null,
+    "type": "kill", "target": "rat", "count": 6,
+    "offer": "Щури винесли пів моєї комори! Виженеш шестеро, дам тобі хліба в дорогу.",
+    "progress": "Ще чути шарудіння. Не всі щури видохлись.",
+    "complete": "Тепер комора мовчить. Ось тобі хліб і трохи монет.",
+    "reward": { "gold": 20, "xp": 25, "items": [["bread", 3]] }
+  },
+  "q_wolf_stew": {
+    "name": "Вовчі шкури", "giver": "tavern", "level_req": 2, "requires": null,
+    "type": "collect", "target": "wolf_pelt", "count": 3,
+    "offer": "Зима близько, а на лавах нічим вкритись. Принеси три вовчі шкури.",
+    "progress": "Ще не вистачає шкур. Вовки в дикій місцевості.",
+    "complete": "Тепла шкіра, чудова! Лави вже не такі холодні.",
+    "reward": { "gold": 45, "xp": 60, "items": [["health_potion_small", 2]] }
+  },
+  "q_bandits": {
+    "name": "Розбійники на тракті", "giver": "tavern", "level_req": 5, "requires": null,
+    "type": "kill", "target": "bandit", "count": 4,
+    "offer": "Мої постачальники більше не доїжджають. Розбійники нишпорять дорогами. Розберись із ними.",
+    "progress": "Дороги ще небезпечні. Не зупиняйся.",
+    "complete": "Нарешті постачання відновиться. Дякую!",
+    "reward": { "gold": 120, "xp": 150, "items": [["health_potion", 2]] }
+  },
+
+  "q_scrap": {
+    "name": "Залізний брухт", "giver": "blacksmith", "level_req": 2, "requires": null,
+    "type": "collect", "target": "iron_scrap", "count": 6,
+    "offer": "Руди майже не лишилось. Принеси мені шість шматків залізного брухту з гоблінів та розбійників.",
+    "progress": "Горн голодує. Потрібно ще заліза.",
+    "complete": "Чудове залізо! Тримай, це вдячність від ковальні.",
+    "reward": { "gold": 50, "xp": 70, "gear": [3, 1] }
+  },
+  "q_tusks": {
+    "name": "Ікла для горна", "giver": "blacksmith", "level_req": 7, "requires": "q_scrap",
+    "type": "collect", "target": "ogre_tusk", "count": 2,
+    "offer": "Мені потрібна кістка огра для особливої зброї. Дві іклі, і я викую тобі щось гідне.",
+    "progress": "Огри бродять далеко від міста. Шукай їх.",
+    "complete": "Ікла просто чудові. Я зроблю з них шедевр, а тобі дам ось це.",
+    "reward": { "gold": 250, "xp": 300, "gear": [7, 3] }
+  },
+
+  "q_pelts": {
+    "name": "Хутро на продаж", "giver": "shop", "level_req": 3, "requires": null,
+    "type": "collect", "target": "wolf_pelt", "count": 5,
+    "offer": "Хутро в ціні! П'ять вовчих шкур, і я заплачу чесно.",
+    "progress": "Шкур ще бракує. Вовки досі бродять.",
+    "complete": "Гарний товар. Ось твої гроші.",
+    "reward": { "gold": 80, "xp": 90 }
+  },
+  "q_masks": {
+    "name": "Маски розбійників", "giver": "shop", "level_req": 5, "requires": null,
+    "type": "collect", "target": "bandit_mask", "count": 3,
+    "offer": "Колекціонери платять добре за маски розбійників. Принеси три, не розчаруй мене.",
+    "progress": "Масок ще не вистачає. Розбійники ховаються на дорогах.",
+    "complete": "Ха, вони й справді кумедні. Ось твоя частка.",
+    "reward": { "gold": 150, "xp": 200, "items": [["mana_potion", 1]] }
+  },
+
+  "q_slime": {
+    "name": "Слизовий гель", "giver": "alchemist", "level_req": 1, "requires": null,
+    "type": "collect", "target": "slime_gel", "count": 5,
+    "offer": "Слизовий гель незамінний для моїх зілль. Принеси п'ять порцій, будь ласка.",
+    "progress": "Ще трохи гелю, і почнемо варити.",
+    "complete": "Чудово, ось це я розумію! Тримай, це для тебе.",
+    "reward": { "gold": 40, "xp": 50, "items": [["mana_potion_small", 2]] }
+  },
+  "q_bones": {
+    "name": "Кістки для еліксиру", "giver": "alchemist", "level_req": 5, "requires": null,
+    "type": "collect", "target": "bone", "count": 4,
+    "offer": "Для нового еліксиру мені потрібні старі кістки: скелети та зомбі їх повні.",
+    "progress": "Кісток ще не вистачає. Шукай мерців.",
+    "complete": "Прекрасно! Ось плата, і ще трохи мани на дорогу.",
+    "reward": { "gold": 120, "xp": 160, "items": [["mana_potion", 2]] }
+  },
+  "q_gems": {
+    "name": "Самоцвіти", "giver": "alchemist", "level_req": 6, "requires": "q_bones",
+    "type": "collect", "target": "gem", "count": 2,
+    "offer": "Мені потрібні два самоцвіти для еліксиру Ельдорії. Їх носять боси та сильні монстри.",
+    "progress": "Самоцвіти знайти важко. Шукай серед босів.",
+    "complete": "Грані ідеальні! Ось справжній еліксир. Ти заслужив.",
+    "reward": { "gold": 260, "xp": 300, "items": [["elixir", 1]] }
+  },
+
+  "q_bounty_goblins": {
+    "name": "Полювання: гобліни", "giver": "guild", "level_req": 3, "requires": null,
+    "type": "kill", "target": "goblin", "count": 6,
+    "offer": "Гільдія оголошує нагороду за шість гоблінів. Це чесна робота.",
+    "progress": "Гоблінів ще багато. Гільдія чекає.",
+    "complete": "Чистою працею. Ось нагорода гільдії.",
+    "reward": { "gold": 90, "xp": 110 }
+  },
+  "q_bounty_skeletons": {
+    "name": "Полювання: скелети", "giver": "guild", "level_req": 6, "requires": null,
+    "type": "kill", "target": "skeleton", "count": 5,
+    "offer": "Скелети бродять старими дорогами. П'ять голів, і гільдія буде вдячна.",
+    "progress": "Скелетів ще повно. Не здавайся.",
+    "complete": "Хороша робота. Тримай нагороду.",
+    "reward": { "gold": 180, "xp": 240, "gear": [6, 2] }
+  },
+  "q_bounty_scorpions": {
+    "name": "Піщана загроза", "giver": "guild", "level_req": 5, "requires": null,
+    "type": "kill", "target": "scorpion", "count": 6,
+    "offer": "Скорпіони в пустелі з'їдають наших гінців. Знищ шістьох, і гільдія заплатить.",
+    "progress": "Скорпіонів ще багато. Пустеля на сході.",
+    "complete": "Гінці знову зможуть дійти. Дякую.",
+    "reward": { "gold": 140, "xp": 170 }
+  },
+  "q_bounty_yeti": {
+    "name": "Снігові велетні", "giver": "guild", "level_req": 8, "requires": null,
+    "type": "kill", "target": "yeti", "count": 3,
+    "offer": "Єті розтерзали нашу північну варту. Тричі помсти, і гільдія віддячить.",
+    "progress": "Єті ще бродять у снігах. Північ чекає.",
+    "complete": "Північ знову безпечніша. Ось твоя винагорода.",
+    "reward": { "gold": 300, "xp": 400, "gear": [8, 2] }
+  },
+  "q_daily": {
+    "name": "Звичайне полювання", "giver": "guild", "level_req": 1, "requires": null,
+    "type": "kill", "target": "*", "count": 12, "repeatable": true,
+    "offer": "Завжди є робота: дванадцять будь-яких тварей. Можеш брати це завдання знову й знову.",
+    "progress": "Лишилося ще трохи тварин. Не зупиняйся.",
+    "complete": "Чудово! Гільдія завжди платить вчасно.",
+    "reward": { "gold": 60, "xp": 80 }
+  },
+
+  "q_undead": {
+    "name": "Очищення болота", "giver": "temple", "level_req": 5, "requires": null,
+    "type": "kill", "target": "zombie", "count": 4,
+    "offer": "Зомбі бродять болотами й крипти. Упокой чотирьох, щоб душі знайшли спокій.",
+    "progress": "Ще є ті, що не знайшли спокою.",
+    "complete": "Світло з тобою. Прийми цей дар храму.",
+    "reward": { "gold": 100, "xp": 130, "items": [["health_potion", 2]] }
+  },
+  "q_wraiths": {
+    "name": "Привиди", "giver": "temple", "level_req": 7, "requires": "q_undead",
+    "type": "kill", "target": "wraith", "count": 3,
+    "offer": "Привиди не дають спати нашим братам. Знищ трьох, і храм подякує.",
+    "progress": "Привиди ще шепочуть у темряві.",
+    "complete": "Тиша і мир, які ти нам повернув. Дякую.",
+    "reward": { "gold": 220, "xp": 280, "items": [["elixir", 1]] }
+  },
+
+  "q_collector": {
+    "name": "Колекціонер", "giver": "auction", "level_req": 3, "requires": null,
+    "type": "collect", "target": "goblin_ear", "count": 5,
+    "offer": "Мій клієнт колекціонує вуха гоблінів. Не питай навіщо. П'ять штук, і ти в плюсі.",
+    "progress": "Вух ще не вистачає. Гобліни бродять навкруги.",
+    "complete": "Чудово! Клієнт буде в захваті. Ось твоя частка.",
+    "reward": { "gold": 90, "xp": 100 }
+  }
+}

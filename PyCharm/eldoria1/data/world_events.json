@@ -1,0 +1,47 @@
+{
+  "first_event_turn": 250,
+  "gap_turns": [500, 900],
+  "events": {
+    "fair": {
+      "name": "Ярмарок", "duration": 350, "weight": 3, "min_level": 1,
+      "desc": "В Ельдорії ярмарок! Торговці знижують ціни та дорожче скуповують товар.",
+      "effects": { "shop_mult": 0.75, "sell_mult": 1.2 }
+    },
+    "shortage": {
+      "name": "Дефіцит товарів", "duration": 350, "weight": 2, "min_level": 1,
+      "desc": "Дороги небезпечні, підвозу немає. Усе в крамницях подорожчало.",
+      "effects": { "shop_mult": 1.35 }
+    },
+    "blood_moon": {
+      "name": "Кривавий місяць", "duration": 300, "weight": 2, "min_level": 3,
+      "desc": "Небо почервоніло. Монстри лютіють, але й здобич щедріша.",
+      "effects": { "xp_mult": 1.4, "gold_mult": 1.5, "monster_damage": 1.2, "spawn_every": 3 }
+    },
+    "gold_rush": {
+      "name": "Золота лихоманка", "duration": 300, "weight": 2, "min_level": 1,
+      "desc": "Монстри несуть із собою подвійну кількість золота.",
+      "effects": { "gold_mult": 2.0 }
+    },
+    "star_blessing": {
+      "name": "Зоряне благословення", "duration": 300, "weight": 2, "min_level": 1,
+      "desc": "Зорі сяють особливо яскраво. Досвід росте швидше.",
+      "effects": { "xp_mult": 1.5 }
+    },
+    "caravan": {
+      "name": "Купецький караван", "duration": 400, "weight": 2, "min_level": 1,
+      "desc": "До Ельдорії прибув караван! Аукціон ломиться від лотів, а покупці азартні.",
+      "effects": { "shop_mult": 0.9, "auction_lots": 8, "auction_buy": 1.5 }
+    },
+    "invasion": {
+      "name": "Вторгнення", "duration": 450, "weight": 2, "min_level": 3,
+      "desc": "Орда загарбників підступає до міста! Знищ їх усіх, поки не спалили Ельдорію.",
+      "effects": {
+        "invasion": {
+          "count": 14,
+          "ids": [["goblin", 5], ["wolf", 4], ["bandit", 3], ["orc", 2]],
+          "kill_gold": 10, "reward_gold": 250, "reward_xp": 300
+        }
+      }
+    }
+  }
+}

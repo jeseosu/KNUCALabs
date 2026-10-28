@@ -1,0 +1,45 @@
+{
+  "gear": {
+    "level_window": [-4, 2],
+    "off_class_weight": 0.25
+  },
+  "monsters": {
+    "rat":      { "gold": [1, 4],   "gear_chance": 0.04, "drops": [["rat_tail", 0.5], ["bread", 0.12], ["health_potion_small", 0.05]] },
+    "slime":    { "gold": [2, 6],   "gear_chance": 0.05, "drops": [["slime_gel", 0.55], ["health_potion_small", 0.08], ["mana_potion_small", 0.06]] },
+    "wolf":     { "gold": [3, 9],   "gear_chance": 0.07, "drops": [["wolf_pelt", 0.5], ["bread", 0.1], ["health_potion_small", 0.1]] },
+    "goblin":   { "gold": [5, 14],  "gear_chance": 0.12, "drops": [["goblin_ear", 0.5], ["iron_scrap", 0.3], ["health_potion_small", 0.12], ["mana_potion_small", 0.08]] },
+    "bandit":   { "gold": [8, 22],  "gear_chance": 0.16, "drops": [["iron_scrap", 0.35], ["bandit_mask", 0.2], ["health_potion", 0.1], ["mana_potion_small", 0.1]] },
+    "skeleton": { "gold": [10, 26], "gear_chance": 0.18, "drops": [["bone", 0.55], ["iron_scrap", 0.25], ["health_potion", 0.12], ["mana_potion", 0.08], ["gem", 0.03]] },
+    "orc":      { "gold": [14, 34], "gear_chance": 0.2,  "drops": [["iron_scrap", 0.4], ["health_potion", 0.15], ["gem", 0.04]] },
+    "ogre":     { "gold": [40, 90], "gear_chance": 0.75, "drops": [["ogre_tusk", 0.8], ["gem", 0.25], ["health_potion_big", 0.35], ["elixir", 0.06], ["mana_potion", 0.2]] },
+    "troll":    { "gold": [50, 110], "gear_chance": 0.5, "drops": [["ogre_tusk", 0.3], ["gem", 0.15], ["health_potion_big", 0.25], ["mana_potion", 0.2]] },
+
+    "toad":     { "gold": [2, 7],   "gear_chance": 0.04, "drops": [["slime_gel", 0.4], ["health_potion_small", 0.08]] },
+    "zombie":   { "gold": [6, 14],  "gear_chance": 0.1,  "drops": [["bone", 0.35], ["health_potion", 0.08]] },
+    "bogman":   { "gold": [18, 40], "gear_chance": 0.22, "drops": [["slime_gel", 0.5], ["gem", 0.06], ["health_potion", 0.15], ["mana_potion", 0.12]] },
+
+    "scorpion": { "gold": [4, 12],  "gear_chance": 0.06, "drops": [["bone", 0.2], ["health_potion_small", 0.1]] },
+    "jackal":   { "gold": [5, 14],  "gear_chance": 0.07, "drops": [["wolf_pelt", 0.4], ["bone", 0.15]] },
+    "mummy":    { "gold": [14, 32], "gear_chance": 0.2,  "drops": [["bone", 0.4], ["gem", 0.06], ["mana_potion", 0.12]] },
+    "sand_golem": { "gold": [30, 70], "gear_chance": 0.35, "drops": [["gem", 0.18], ["iron_scrap", 0.5], ["health_potion", 0.2]] },
+
+    "ice_wolf": { "gold": [5, 14],  "gear_chance": 0.07, "drops": [["wolf_pelt", 0.55], ["health_potion_small", 0.1]] },
+    "yeti":     { "gold": [20, 44], "gear_chance": 0.25, "drops": [["wolf_pelt", 0.4], ["gem", 0.08], ["health_potion", 0.18]] },
+    "ice_elemental": { "gold": [24, 50], "gear_chance": 0.28, "drops": [["gem", 0.12], ["mana_potion", 0.25]] },
+
+    "bat":       { "gold": [1, 5],   "gear_chance": 0.03, "drops": [["health_potion_small", 0.08]] },
+    "wraith":    { "gold": [10, 24], "gear_chance": 0.18, "drops": [["mana_potion", 0.15], ["gem", 0.04]] },
+    "imp":       { "gold": [15, 35], "gear_chance": 0.22, "drops": [["mana_potion", 0.2], ["health_potion", 0.1], ["gem", 0.06]] },
+    "drakeling": { "gold": [20, 45], "gear_chance": 0.3,  "drops": [["health_potion", 0.2], ["gem", 0.1], ["ogre_tusk", 0.1]] },
+    "demon":     { "gold": [30, 70], "gear_chance": 0.4,  "drops": [["health_potion_big", 0.2], ["gem", 0.15], ["mana_potion", 0.25]] },
+
+    "rat_king":    { "gold": [40, 80],   "gear_chance": 1.0, "gear_rolls": 1, "gear_min_rank": 1, "drops": [["health_potion", 0.8], ["gem", 0.1]] },
+    "goblin_king": { "gold": [120, 200], "gear_chance": 1.0, "gear_rolls": 1, "gear_min_rank": 2, "drops": [["health_potion_big", 0.9], ["gem", 0.6], ["iron_scrap", 1.0]] },
+    "bog_hag":     { "gold": [180, 300], "gear_chance": 1.0, "gear_rolls": 1, "gear_min_rank": 2, "drops": [["health_potion_big", 0.9], ["gem", 0.7], ["mana_potion", 1.0]] },
+    "lich":        { "gold": [250, 400], "gear_chance": 1.0, "gear_rolls": 2, "gear_min_rank": 2, "drops": [["elixir", 0.5], ["gem", 0.8], ["mana_potion", 1.0], ["bone", 1.0]] },
+    "frost_giant": { "gold": [320, 520], "gear_chance": 1.0, "gear_rolls": 2, "gear_min_rank": 2, "drops": [["elixir", 0.6], ["gem", 0.9], ["health_potion_big", 1.0]] },
+    "pharaoh":     { "gold": [400, 650], "gear_chance": 1.0, "gear_rolls": 2, "gear_min_rank": 3, "drops": [["elixir", 0.7], ["gem", 1.0], ["bone", 1.0]] },
+    "dragon":      { "gold": [600, 900], "gear_chance": 1.0, "gear_rolls": 2, "gear_min_rank": 3, "drops": [["elixir", 0.9], ["gem", 1.0], ["health_potion_big", 1.0], ["ogre_tusk", 0.5]] },
+    "demon_lord":  { "gold": [1000, 1600], "gear_chance": 1.0, "gear_rolls": 3, "gear_min_rank": 3, "drops": [["elixir", 1.0], ["gem", 1.0], ["health_potion_big", 1.0]] }
+  }
+}

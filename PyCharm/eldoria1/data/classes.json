@@ -1,0 +1,32 @@
+{
+  "warrior": {
+    "name": "Воїн",
+    "description": "Міцний боєць ближнього бою. Багато здоров'я та броні.",
+    "base": { "max_hp": 120, "max_mp": 20, "attack": 12, "defense": 8 },
+    "per_level": { "max_hp": 15, "max_mp": 2, "attack": 3, "defense": 2 },
+    "skill": {
+      "name": "Нищівний удар", "cost": 8, "multiplier": 1.8,
+      "range": 1, "glyph": "x", "color": "fx_fire"
+    }
+  },
+  "mage": {
+    "name": "Маг",
+    "description": "Крихкий, але керує потужною магією. Багато мани.",
+    "base": { "max_hp": 70, "max_mp": 100, "attack": 16, "defense": 3 },
+    "per_level": { "max_hp": 8, "max_mp": 10, "attack": 4, "defense": 1 },
+    "skill": {
+      "name": "Вогняна куля", "cost": 18, "multiplier": 2.4,
+      "range": 6, "glyph": "*", "color": "fx_fire"
+    }
+  },
+  "archer": {
+    "name": "Лучник",
+    "description": "Збалансований стрілець. Влучний та витривалий.",
+    "base": { "max_hp": 90, "max_mp": 50, "attack": 14, "defense": 5 },
+    "per_level": { "max_hp": 11, "max_mp": 5, "attack": 3, "defense": 1 },
+    "skill": {
+      "name": "Прицільний постріл", "cost": 14, "multiplier": 2.0,
+      "range": 7, "glyph": "-", "color": "fx_arrow"
+    }
+  }
+}
